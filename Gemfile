@@ -63,6 +63,8 @@ gem 'devise'
 
 gem 'carrierwave'
 gem 'rmagick'
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
 gem 'fog'
 
 gem 'kaminari'
@@ -73,3 +75,5 @@ group :production do
   # Gemfileの1番下に追加しましょう。
   #gem 'pg'
 end
+
+gem 'dotenv-rails'
