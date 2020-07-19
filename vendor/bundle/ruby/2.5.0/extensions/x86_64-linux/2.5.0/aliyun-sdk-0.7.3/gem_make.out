@@ -1,0 +1,16 @@
+current directory: /home/vagrant/work/meshiterro-demo-natural-language-api/vendor/bundle/ruby/2.5.0/gems/aliyun-sdk-0.7.3/ext/crcx
+/home/vagrant/.rbenv/versions/2.5.7/bin/ruby -r ./siteconf20200719-14038-s7u9tf.rb extconf.rb
+creating Makefile
+
+current directory: /home/vagrant/work/meshiterro-demo-natural-language-api/vendor/bundle/ruby/2.5.0/gems/aliyun-sdk-0.7.3/ext/crcx
+make "DESTDIR=" clean
+
+current directory: /home/vagrant/work/meshiterro-demo-natural-language-api/vendor/bundle/ruby/2.5.0/gems/aliyun-sdk-0.7.3/ext/crcx
+make "DESTDIR="
+compiling crc64_ecma.c
+compiling crcx.c
+linking shared-object aliyun/crcx.so
+
+current directory: /home/vagrant/work/meshiterro-demo-natural-language-api/vendor/bundle/ruby/2.5.0/gems/aliyun-sdk-0.7.3/ext/crcx
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 crcx.so ./.gem.20200719-14038-ch4j6q/aliyun
